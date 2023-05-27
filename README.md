@@ -37,7 +37,7 @@ Have a bash wrapper function like the given below added to you shell profile (li
 ask_bard() { python bard-cli.py -p "$1";}
 ```
 
-You can then invoke the BARD-cli anywhere in you terminal or shell like the below
+You can then invoke the BARD-CLI anywhere in you terminal or shell like the below
 ```
 ask_bard "Hows the weather today in London?"
 ```
