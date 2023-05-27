@@ -1,5 +1,5 @@
 #### Bard-CLI
-This python adapter script uses the bard API [Bard-API](https://github.com/dsdanielpark/Bard-API) to have Command Line Interface (CLI) based interaction to Google's BARD.
+This python adapter script uses the bard API [Bard-API](https://github.com/dsdanielpark/Bard-API) to have Command Line Interface (CLI) based interaction to Google's BARD. Please review the instructions mentione in the [Bard-API](https://github.com/dsdanielpark/Bard-API) for additional information and risks.
 
 #### Pre-requistes
 1. Install the necessary modules from requirements.txt - `pip install -r requirements.txt`
