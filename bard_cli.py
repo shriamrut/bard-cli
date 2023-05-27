@@ -1,3 +1,5 @@
+"""Module providingFunction for CLI."""
+
 from bard import AskBard
 import argparse
 API_TOKEN = '<TOKEN>'
