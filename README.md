@@ -31,3 +31,14 @@ Bard:  Hello! How can I help you today?
 Enter a prompt here: quit
 ```
 
+#### Intersting way to invoke BARD-CLI instanly
+Have a bash wrapper function like the given below added to you shell profile (like **bash_profile**), to avoid calling python intrepreter to invoke BARD-CLI
+```
+ask_bard() { python bard-cli.py -p "$1";}
+```
+
+You can then invoke the BARD-cli anywhere in you terminal or shell like the below
+```
+ask_bard "Hows the weather today in London?"
+```
+
