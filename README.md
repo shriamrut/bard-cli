@@ -10,13 +10,17 @@ This project currently is a python adapter that mainly uses the bard API python 
 #### How to use it?
 This will start of an interactive CLI with BARD 
 
-```python bard_cli.py```
+```
+python bard_cli.py
+```
 
 OR
 
 This will start of an interactive CLI with BARD, where the first prompt given will be as mentioned in PROMPT 
 
-```python bard_cli.py -p "<PROMPT>"```
+```
+python bard_cli.py -p "<PROMPT>"
+```
 
 #### How to quit the session?
 You can quit the interactive cli session, by mentioning the keyword - **quit**
