@@ -15,7 +15,7 @@ class AskBard:
                     "Referer": "https://bard.google.com/",
                 }
         self.timeout = 300
-        self.session.cookies.set("__Secure-1PSID", os.getenv("_BARD_API_KEY")) 
+        self.session.cookies.set("__Secure-1PSID", self.api_key) 
         self.bard =  Bard(token = self.api_key, session = self.session, timeout = self.timeout)
     def ask(self, prompt):
         response = self.bard.get_answer(prompt)["content"]
