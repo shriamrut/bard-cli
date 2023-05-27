@@ -21,12 +21,12 @@ if __name__ == "__main__":
     bard = AskBard(api_key = API_TOKEN)
     if args.prompt:
         response = bard.ask(args.prompt)
-        print(ColorCodes.BOLD + ColorCodes.OKCYAN + "Bard: "
-              + ColorCodes.ENDC, response, end = "\n\n")
+        print(ColorCodes.BOLD.value + ColorCodes.OKCYAN.value + "Bard: "
+              + ColorCodes.ENDC.value, response, end = "\n\n")
     while True:
-        prompt = input(ColorCodes.BOLD
-                       + ColorCodes.OKGREEN + "Enter a prompt here: " + ColorCodes.ENDC)
+        prompt = input(ColorCodes.BOLD.value
+                       + ColorCodes.OKGREEN.value + "Enter a prompt here: " + ColorCodes.ENDC.value)
         if prompt == "quit":
             break
         response = bard.ask(prompt)
-        print(ColorCodes.BOLD + ColorCodes.OKCYAN + "Bard: ", response, end = "\n\n")
+        print(ColorCodes.BOLD.value + ColorCodes.OKCYAN.value + "Bard: ", response, end = "\n\n")
