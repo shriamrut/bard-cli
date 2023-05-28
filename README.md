@@ -4,8 +4,11 @@ This project currently is a python adapter that mainly uses the bard API python 
 ##### Note: Please review the instructions mentiond in the [Bard-API](https://github.com/dsdanielpark/Bard-API) for additional information and risks.
 
 #### Pre-requistes
-1. Install the necessary modules from requirements.txt - `pip install -r requirements.txt`
-2. Set up api token **TOKEN** in bard_cli.py. You can refer [Bard-API](https://github.com/dsdanielpark/Bard-API) project on how to get your **__Secure-1PSID** token
+1. Install the necessary modules from requirements.txt 
+```
+pip install -r requirements.txt
+```
+3. Set up api token **TOKEN** in bard_cli.py. You can refer [Bard-API](https://github.com/dsdanielpark/Bard-API) project on how to get your **__Secure-1PSID** token
 
 #### How to use it?
 This will start of an interactive CLI with BARD 
